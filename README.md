@@ -53,10 +53,8 @@ sudo apt install build-essential mingw-w64
 
 ### 3. StarCraft Game Setup
 
-필수 StarCraft: BroodWar 1.16.1 아카이브를 다운로드하여 이 저장소의 루트
-디렉터리에 배치해야 합니다.
-
-[Starcraft Broodwar 1.16.1](https://drive.google.com/file/d/1q4gib8OQ0CMDMBorhwWwta135uqwlCSk/view?usp=sharing)
+필수 [Starcraft Broodwar 1.16.1](https://drive.google.com/file/d/1q4gib8OQ0CMDMBorhwWwta135uqwlCSk/view?usp=sharing)
+아카이브를 다운로드하여 이 저장소의 루트 디렉터리에 배치해야 합니다.
 
 이후, 게임 파일의 압축을 해제합니다.
 
