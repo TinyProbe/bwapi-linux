@@ -27,7 +27,7 @@ StarCraft AI 프로그래밍이 처음이신가요? 데이브 처칠 교수의 �
 이 가이드는 Linux 환경에서 봇을 컴파일하고 실행하는 데 필요한 의존성 및 파일을
 설정하는 과정을 안내합니다.
 
-1. Initialization
+### 1. Initialization
 
 저장소를 로컬 머신에 복제합니다.
 
@@ -36,7 +36,7 @@ git clone https://github.com/TinyProbe/bwapi-linux
 cd bwapi-linux
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 게임 실행을 위한 Wine과, Wine에서 에뮬레이트 되는 Windows 환경용 봇을 크로스
 컴파일하기 위한 MinGW-w64가 필요합니다.
@@ -51,7 +51,7 @@ sudo apt install wine
 sudo apt install build-essential mingw-w64
 ```
 
-3. StarCraft Game Setup
+### 3. StarCraft Game Setup
 
 필수 StarCraft: BroodWar 1.16.1 아카이브를 다운로드하여 이 저장소의 루트
 디렉터리에 배치해야 합니다.
@@ -65,7 +65,7 @@ sudo apt install build-essential mingw-w64
 tar -xJf starcraft.tar.xz
 ```
 
-4. Build the Bot
+### 4. Build the Bot
 
 제공된 Makefile을 사용하여 봇 소스 코드를 컴파일합니다. 이 명령은 MinGW-w64를
 사용하여 크로스 컴파일을 수행합니다.
@@ -74,7 +74,7 @@ tar -xJf starcraft.tar.xz
 make
 ```
 
-5. Run the Bot
+### 5. Run the Bot
 
 제공된 run.sh 스크립트는 필요한 Wine 환경 설정과 함께 StarCraft 및 BWAPI 봇
 실행을 간편하게 처리합니다.
@@ -83,7 +83,7 @@ make
 bash run.sh
 ```
 
-6. Cleanup
+### 6. Cleanup
 
 생성된 바이너리 파일을 제거하여 깔끔한 상태를 유지하려면 다음 명령어를
 사용합니다.
