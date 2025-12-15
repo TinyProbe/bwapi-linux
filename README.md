@@ -59,7 +59,6 @@ sudo apt install build-essential mingw-w64
 이후, 게임 파일의 압축을 해제합니다.
 
 ```bash
-# starcraft.tar.xz 파일의 압축 해제
 tar -xJf starcraft.tar.xz
 ```
 
